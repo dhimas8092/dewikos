@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    background: #e3e3e3;
+    font-family: Arial;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    background: #c62828;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+    background: white;
+    border-radius: 50%;
+}
+
+.btn-group a {
+    padding: 7px 15px;
+    background: #fff;
+    border-radius: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+/* SEARCH BAR */
+.search-container {
+    margin: 30px auto;
+    width: 90%;
+    display: flex;
+}
+
+.search-input {
+    width: 85%;
+    padding: 10px;
+    border-radius: 25px 0 0 25px;
+    border: none;
+}
+
+.search-btn {
+    width: 15%;
+    border: none;
+    background: #66bb6a;
+    color: white;
+    border-radius: 0 25px 25px 0;
+}
+
+/* REKOMENDASI CARD */
+.rekomendasi-card {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    background: #b71c1c;
+    border-radius: 15px;
+}
+
+.img-box {
+    width: 35%;
+    height: 150px;
+    background: #c77;
+    border-radius: 10px;
+}
+
+.text-box {
+    margin-left: 20px;
+    color: white;
+}
+
+/* POPULAR */
+.popular-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.popular-card {
+    width: 40%;
+    background: #8e6b6b;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.img-small {
+    width: 100%;
+    height: 120px;
+    background: #ddd;
+    border-radius: 10px;
+}
+
+.detail-btn {
+    margin-top: 10px;
+    padding: 7px 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+    background: #c62828;
+    color: white;
+    border-radius: 20px 20px 0 0;
+}
+
+.medsos .icon {
+    margin: 0 10px;
+}
